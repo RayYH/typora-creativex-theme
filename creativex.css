@@ -1143,6 +1143,7 @@ mark .md-meta {
 tt {
     border-radius: 3px;
     font-size: 0.9em;
+    margin-top: 1em;
     margin-bottom: 1em;
 }
 
