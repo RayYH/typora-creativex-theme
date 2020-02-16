@@ -1273,3 +1273,14 @@ li p {
 sup.md-footnote {
     background-color: var(--bg-color);
 }
+
+/* full width if you want */
+/*thead {
+    width: 100%;
+    display: table;
+}
+
+tbody {
+    width: 100%;
+    display: table;
+}*/
