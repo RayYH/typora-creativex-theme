@@ -1300,9 +1300,10 @@ strong {
 
 li p {
     padding: 0;
-    margin: 0;
+    margin: 0 auto;
+    display: inline;
 }
 
 sup.md-footnote {
-    background-color: var(--bg-color);
+    background: transparent;
 }
