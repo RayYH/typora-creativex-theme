@@ -502,7 +502,7 @@ div.hr:focus {
     margin-left: -1.3em;
 }
 
-/* table, inspired by material theme */
+/* common table style, inspired by material theme */
 #write table {
     display: inline-block;
     max-width: 100%;
@@ -577,6 +577,12 @@ div.hr:focus {
 #write table tbody td:last-child {
     border-right: solid 1px #d0d0d0;
 }
+
+/*!* full width if you want *!*/
+/*thead, tbody {*/
+/*    width: 100%;*/
+/*    display: table;*/
+/*}*/
 
 /* inline - code */
 code {
@@ -1282,6 +1288,7 @@ header, .context-menu, .megamenu-content, footer {
     white-space: normal;
 }
 
+/* other styles needed to be fixed */
 em {
     font-style: italic;
 }
@@ -1298,14 +1305,3 @@ li p {
 sup.md-footnote {
     background-color: var(--bg-color);
 }
-
-/* full width if you want */
-/*thead {
-    width: 100%;
-    display: table;
-}
-
-tbody {
-    width: 100%;
-    display: table;
-}*/
