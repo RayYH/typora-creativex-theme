@@ -416,10 +416,13 @@ sup.md-footnote:after {
 }
 
 /* blockquote */
+/* inspired by https://learnku.com/ */
 blockquote {
-    border-left: 4px solid #41b883;
-    padding: 0 25px;
-    margin: 0 0 1em;
+    margin: 20px 0!important;
+    background-color: #f5f8fc;
+    padding: 1rem;
+    color: #879687;
+    border-left: none;
     font-family: inherit;
 }
 
