@@ -214,7 +214,7 @@
 }
 
 .CodeMirror-wrap .CodeMirror-scroll {
-    overflow-x: hidden;
+    overflow-x: auto;
 }
 
 .CodeMirror-measure {

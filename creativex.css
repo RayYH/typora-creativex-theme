@@ -1307,3 +1307,7 @@ li p {
 sup.md-footnote {
     background: transparent;
 }
+
+#write pre {
+    white-space: nowrap;
+}
