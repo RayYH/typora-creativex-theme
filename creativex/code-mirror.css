@@ -38,8 +38,8 @@
     overflow-y: hidden;
     overflow-x: auto;
     z-index: 3;
-    margin-top: 0.6rem;
-    margin-bottom: 0.6rem;
+    margin-top: 1.1rem;
+    margin-bottom: 1.1rem;
 }
 
 .CodeMirror-gutter-filler, .CodeMirror-scrollbar-filler {
@@ -161,10 +161,6 @@
     z-index: 4;
 }
 
-.CodeMirror-lines {
-    cursor: text;
-}
-
 .CodeMirror pre {
     border-radius: 0;
     border-width: 0;
@@ -245,7 +241,8 @@
 }
 
 .CodeMirror-lines {
-    padding-left: 4px;
+    padding-left: 14px;
+    cursor: text;
 }
 
 .CodeMirror-line {
