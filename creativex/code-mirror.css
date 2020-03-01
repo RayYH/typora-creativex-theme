@@ -161,6 +161,10 @@
     z-index: 4;
 }
 
+.CodeMirror-lines {
+    cursor: text;
+}
+
 .CodeMirror pre {
     border-radius: 0;
     border-width: 0;
@@ -210,7 +214,7 @@
 }
 
 .CodeMirror-wrap .CodeMirror-scroll {
-    overflow-x: auto;
+    overflow-x: hidden;
 }
 
 .CodeMirror-measure {
@@ -225,24 +229,12 @@
     position: static;
 }
 
-.CodeMirror div.CodeMirror-cursor {
-    position: absolute;
-    visibility: hidden;
-    border-right-style: none;
-    width: 0;
-}
-
-.CodeMirror div.CodeMirror-cursor {
-    visibility: hidden;
-}
-
 .CodeMirror-focused div.CodeMirror-cursor {
     visibility: inherit;
 }
 
 .CodeMirror-lines {
     padding-left: 14px;
-    cursor: text;
 }
 
 .CodeMirror-line {
@@ -294,11 +286,6 @@ div.CodeMirror-selected {
 
 .CodeMirror-linenumber {
     color: #515151;
-}
-
-.CodeMirror-cursor {
-    color: #c5c8c6;
-    border-left: 1px solid #6A6A6A;
 }
 
 .cm-s-inner .cm-comment {
@@ -434,14 +421,11 @@ div.CodeMirror-selected {
     color: white !important;
 }
 
-.CodeMirror div.CodeMirror-cursor {
+.CodeMirror.cm-s-typora-default div.CodeMirror-cursor {
     border-left: 1px solid #e4629a;
 }
 
-.cm-s-inner .CodeMirror-cursor {
-    border-left: 1px solid #f8f8f0;
-}
-
-.cm-s-typora-default .CodeMirror-cursor {
-    border-left: 1px solid #f8f8f0;
+.CodeMirror div.CodeMirror-cursor {
+    border-left: 1px solid #e4629a;
+    z-index: 3;
 }
