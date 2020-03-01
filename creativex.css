@@ -22,7 +22,8 @@
     --control-text-color: #777;
     --select-text-bg-color: #B5D6FC;
     --select-text-font-color: auto;
-    --monospace: "Menlo", "Monaco", "Fira Code", "Lucida Console", Consolas, "Courier", monospace;
+    --base-font: Lato, helvetica, arial, sans-serif;
+    --monospace: Consolas, Monaco, "Menlo", "Monaco", "Fira Code", "Lucida Console", Consolas, "Courier", monospace;
 }
 
 /* base style */
@@ -116,14 +117,14 @@ html {
     overflow-x: initial !important;
     background-color: var(--bg-color);
     color: var(--text-color);
-    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-family: var(--base-font);
     -webkit-font-smoothing: antialiased;
 }
 
 /* body */
 body {
     background: var(--bg-color);
-    font-family: Lato, helvetica, arial, sans-serif;
+    font-family: var(--base-font);
     font-size: 16px;
     color: #000;
     line-height: 1.6;
@@ -423,7 +424,6 @@ blockquote {
     padding: 1rem;
     color: #879687;
     border-left: none;
-    font-family: inherit;
 }
 
 blockquote > :last-child {
@@ -506,7 +506,7 @@ div.hr:focus {
     margin-left: -1.3em;
 }
 
-/* common table style, inspired by material theme */
+/* table, inspired by material theme */
 #write table {
     display: inline-block;
     max-width: 100%;
@@ -582,11 +582,16 @@ div.hr:focus {
     border-right: solid 1px #d0d0d0;
 }
 
-/*!* full width if you want *!*/
-/*thead, tbody {*/
-/*    width: 100%;*/
-/*    display: table;*/
-/*}*/
+/* full width if you want */
+/*thead {
+    width: 100%;
+    display: table;
+}
+
+tbody {
+    width: 100%;
+    display: table;
+}*/
 
 /* inline - code */
 code {
@@ -699,10 +704,6 @@ body.typora-export {
     cursor: pointer;
     width: inherit;
     height: inherit;
-}
-
-#write pre {
-    white-space: pre-wrap;
 }
 
 #write.fences-no-line-wrapping pre {
@@ -1129,12 +1130,8 @@ mark .md-meta {
     background-color: rgba(255, 255, 0, 0.4);
 }
 
-:root {
-
-}
-
 #write {
-    max-width: 860px;
+    max-width: 940px;
     margin: 0 auto;
     padding: 30px 30px 100px;
 }
@@ -1292,7 +1289,6 @@ header, .context-menu, .megamenu-content, footer {
     white-space: normal;
 }
 
-/* other styles needed to be fixed */
 em {
     font-style: italic;
 }
@@ -1307,8 +1303,4 @@ li p {
 
 sup.md-footnote {
     background: transparent;
-}
-
-#write pre {
-    white-space: nowrap;
 }
