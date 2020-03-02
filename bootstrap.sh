@@ -9,6 +9,7 @@ THEME_FOLDER=~/Library/Application\ Support/abnerworks.Typora/themes
 if [ -d "$THEME_FOLDER" ]; then
     rsync --exclude ".git/" \
         --exclude "images" \
+        --exclude ".gitignore" \
         --exclude "demo.md" \
         --exclude ".DS_Store" \
         --exclude "bootstrap.sh" \
