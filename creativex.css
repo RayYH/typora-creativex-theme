@@ -213,7 +213,6 @@ h1 {
     font-size: 2.55em;
     padding-bottom: 0.3em;
     line-height: 1.2em;
-    border-bottom: solid 1px #d0d0d0;
     margin: 1em 0 0.44em;
 }
 
@@ -227,6 +226,11 @@ h2 {
     padding-bottom: 0.3em;
     line-height: 1.225em;
     margin: 1em 0 0.57em;
+}
+
+h1, h2 {
+    border-bottom: 1px solid #eaecef;
+    padding-bottom: .3em;
 }
 
 h2:first-child {
