@@ -18,7 +18,7 @@ An amazing theme for <a href="https://typora.io/">typora</a>, inspired by <a hre
 2. Copy css and related resources, like fonts or images, into the newly opened folder.
 3. Restart typora, then select it from `Themes` menu.
 
-Click [this](http://theme.typora.io/doc/Install-Theme/) to get more info.
+[This article](http://theme.typora.io/doc/Install-Theme/) provides more info about this topic.
 
 ### Mac
 
