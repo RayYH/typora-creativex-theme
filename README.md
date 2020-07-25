@@ -27,7 +27,6 @@ git clone https://github.com/RayYH/typora-creativex-theme && cd typora-creativex
 source bootstrap.sh
 ```
 
-
 ## LICENSE
 
-[MIT](LICENSE).
+This project is licensed under [MIT](LICENSE) license.

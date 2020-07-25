@@ -1,6 +1,7 @@
 #!/usr/bin/env bash
 
-cd "$(dirname "${BASH_SOURCE}")" || return
+CURRENT_DIR=$(dirname "${BASH_SOURCE[0]}")
+CURRENT_DIR=$(cd "$CURRENT_DIR" && pwd)
 
 git pull origin master
 
@@ -16,7 +17,7 @@ if [ -d "$THEME_FOLDER" ]; then
         --exclude "README.md" \
         --exclude "LICENSE" \
         -avh --no-perms . "$THEME_FOLDER"
-        echo "done"
+    echo "done"
 else
     echo "Theme folder $THEME_FOLDER not exists, open typora and check preferences."
 fi
