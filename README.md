@@ -19,12 +19,12 @@ git clone https://github.com/RayYH/typora-creativex-theme && cd typora-creativex
 source bootstrap.sh
 ```
 
-### Other platform
+### Win/Linux
 
 1. Open Theme Folder from `Preference Panel` → `Appearance` section.
 2. Copy `creativex.css` and `creativex` folder, into the newly opened folder.
 3. Restart typora, then select it from `Themes` menu.
 
-## LICENSE
+## License
 
 This project is licensed under [MIT](LICENSE) license.
